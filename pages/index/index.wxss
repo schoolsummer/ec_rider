@@ -1,0 +1,92 @@
+/**index.wxss**/
+/* 标题 */
+.ecjia-discover-article {
+    border-top: 1px solid #eee ;
+    border-bottom: 1px solid #eee;
+    position: sticky;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    background: #3cb034;
+    max-width: 100%;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+    height: 111rpx;
+}
+.swiper-container-b {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.swiper-wrapper-b {
+     width: 100%;
+    height: 50px;
+    line-height: 48px;
+}
+.swiper-slide-b{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    max-width: 25%;
+    background: #3cb034;
+    width: 116px;
+    color: #fff;
+    opacity: 0.6;
+    font-family: SourceHanSansCN-Regular;
+}
+
+.swiper-slide-b-active{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    max-width: 25%;
+    background: #3cb034;
+    width: 116px;
+    color: #fff;
+    font-family: SourceHanSansCN-Regular;
+    border-bottom: 2px solid #fff;
+
+}
+.article-add1 {
+    width: 10%;
+    float: left;
+    font-size: 1.5em;
+    line-height: 50px;
+    /* cursor: pointer; */
+    background-color: #3cb034;
+     text-align: center;
+}
+.xiaoren{
+  width: 33rpx;
+	height: 33rpx;
+  
+}
+
+.article-add2 {
+    width: 10%;
+    float: right;
+    font-size: 1.5em;
+    line-height: 50px;
+    /* cursor: pointer; */
+    background-color: #3cb034;
+     text-align: center;
+}
+.huihua{
+  width: 33rpx;
+	height: 33rpx;
+}
+
+/* 广告部分 */
+.Advertisement{
+  width: 100%;
+	height: 160rpx;
+}
+.activity{
+  width: 100%;
+	height: 160rpx;
+}

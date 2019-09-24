@@ -1,0 +1,24 @@
+<!--start.wxml-->
+
+  <view class="logos">
+    <image class="logo"src="/images/shouquan/shouquan1.png"></image>  
+  </view>
+  <view class="logotext">
+    <text class="logoT">荟优鲜骑手端</text>
+  </view>
+  <view class="loding">
+    <view class="spot"></view>
+  </view>
+    
+<view class="container"> 
+  <view class="userinfo">
+    <button  wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 点我登录 </button>
+    <block  wx:else>
+      <image  class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text  class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>

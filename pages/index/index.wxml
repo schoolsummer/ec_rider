@@ -1,0 +1,21 @@
+<!--index.wxml-->
+
+<!-- 头部 -->
+<view class="ecjia-discover-article">
+        <view class="swiper-container-b">
+          <view class="swiper-wrapper-b">
+          <view class="article-add1" >
+          <image class="xiaoren" src="/images/shouye/shouye2.png"></image>
+        </view>
+            <view class="{{categorySelected == item.id? 'swiper-slide-b-active':'swiper-slide-b'  }}" data-id="{{item.id}}" bindtap="onCategoryClick" wx:for="{{categories}}">
+              {{item.name}}</view>
+        <view class="article-add2" >
+          <image class="huihua" src="/images/shouye/shouye3.png"></image>
+        </view>
+          </view>
+        </view> 
+      </view>
+<!-- 广告 -->
+<view class="Advertisement">
+  <image class="activity" src="/images/test/huodong.png"></image>
+</view>

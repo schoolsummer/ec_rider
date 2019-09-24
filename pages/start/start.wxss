@@ -1,0 +1,58 @@
+/* start.wxss */
+
+/* logo块 */
+.logos{
+  width: 100%;
+  display:flex;                    
+ justify-content: center;
+}
+.logotext{
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+}
+.logo{
+width: 70rpx;
+height: 76rpx;
+display:block;
+
+}
+.logoT{
+	height: 35rpx;
+	font-family: SourceHanSansCN-Regular;
+	font-size: 38rpx;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 42rpx;
+	letter-spacing: 0rpx;
+	color: #111111;
+  text-align: center;
+  width: 100%;
+  padding-top: 35rpx;
+}
+.loding{
+  width: 68rpx;
+	height: 13rpx;
+}
+/* 获取头像块 */
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
